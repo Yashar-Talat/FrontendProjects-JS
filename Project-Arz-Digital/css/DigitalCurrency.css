@@ -86,22 +86,30 @@ b:hover {
   color: #f9b500;
 }
 
+.app {
+  width: 1200px;
+}
 
+@media (max-width: 1199.98px) {
+  .app {
+    width: 922px;
+  }
+}
+@media (max-width: 991.98) {
+  .app {
+    width: 768px;
+  }
+}
 
+@media (max-width: 767.98) {
+  .app {
+    width: 576px;
+  }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width: 575.98) {
+  .app {
+    width: calc(100%-30px);
+    padding: 0 15px;
+  }
+}
