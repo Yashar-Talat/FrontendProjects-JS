@@ -585,3 +585,28 @@ a:hover > b {
 .fa-bitcoin:hover {
   color: #f9b500;
 }
+
+@media (max-width: 575.98px) {
+  .footer-col {
+      float: none;
+      padding: 15px;
+      width: calc(100% - 30px);
+      margin-right: 0;
+  }
+  .footer-menu {
+      float: none;
+      width: 100%;
+      text-align: center;
+  }
+  .footer-menu li {
+      padding: 10px;
+  }
+  .footer-social-network {
+      float: none;
+      width: 100%;
+      text-align: center;
+  }
+  .footer-social-network li {
+      padding: 10px;
+  }
+}
