@@ -1,0 +1,143 @@
+@import url(../Icon/fontawesome-pro-6.1.1-web/css/all.min.css);
+
+@font-face {
+  font-family: "IRANsans-Bold";
+  src: url(../font/IRAN\ Sans\ Bold.ttf);
+}
+@font-face {
+  font-family: "IRANsans-Regular";
+  src: url(../font/IRAN\ Sans\ Regular.ttf);
+}
+
+* {
+  margin: 0 auto;
+}
+body {
+  font-family: IRANsans-Regular, Tahoma;
+  font-size: 14px;
+  font-weight: 400;
+}
+a {
+  text-decoration: none;
+  color: #a1a0a0;
+  transition: all 0.3s ease-out;
+}
+a:hover {
+  color: #ffffff;
+}
+li {
+  list-style-type: none;
+  font-weight: 400;
+}
+.position-absolute {
+  position: absolute;
+}
+.position-realtive {
+  position: relative;
+}
+.clear-fix {
+  clear: both;
+}
+.content-nav-bar {
+  width: 100%;
+  position: fixed;
+  background-attachment: fixed;
+  z-index: 1000 !important;
+}
+.top-nav-all {
+  background-color: #242424;
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0 / 16%);
+  overflow: hidden;
+  padding: 12px 15px 9px 0;
+  top: 0;
+  width: 100%;
+}
+.top-nav {
+  width: 100%;
+  text-align: center;
+  background-color: #242424 !important ;
+}
+.left-item-nav {
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  right: 250px;
+  bottom: 5px;
+}
+.left-item-nav li {
+  display: inline-block;
+  margin-right: 15px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.right-item-nav {
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  bottom: 5px;
+}
+.right-item-nav li {
+  display: inline-block;
+  margin-left: 15px;
+  font-size: 15px;
+  font-weight: 400;
+}
+/* .fix-bottom-menu {
+  background-attachment: fixed;
+  z-index: 1000 !important;
+} */
+.bottom-nav {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  background-color: #000000;
+}
+.left-box-icons {
+  position: relative;
+  display: inline-block;
+  right: 604px;
+  top: 21px;
+  bottom: 0;
+}
+.left-box-icons li {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 0 10px;
+}
+.main-menu {
+  position: relative;
+  bottom: 3px;
+  left: 140px;
+}
+.menu-bar {
+  display: inline-block;
+}
+.menu-bar li {
+  display: inline-block;
+  padding-right: 30px;
+  padding-bottom: 0px;
+  font-size: 17px;
+  font-weight: 800;
+}
+.menu-bar li a {
+  color: #ffffff;
+}
+.icon-zoomit {
+  width: 140px;
+  height: 20px;
+  position: relative;
+  left: 550px;
+  bottom: 26px;
+}
+.product {
+  border: 0px solid #ffffff;
+  border-radius: 15px;
+  padding: 3px 12px;
+  background-color: #404040;
+  font-weight: 400 !important;
+}
+.product:hover {
+  background-color: red;
+}
+
