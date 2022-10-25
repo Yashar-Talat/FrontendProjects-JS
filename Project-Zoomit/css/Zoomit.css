@@ -16,6 +16,7 @@ body {
   font-family: IRANsans-Regular;
   font-size: 14px;
   font-weight: 400;
+  background-color: #F0F0F0;
 }
 .Header-till-up-bottom {
   width: 1320px;
@@ -373,10 +374,33 @@ li {
 .last-adv-tpart {
   text-align: center;
   margin: 10px 0 0 0;
-  position: absolute;
   width: 100%;
-  left: 5px;
+  position: relative;
+  left: 4px;
 }
 .adv-2-bottom img {
   width: 99.5%;
+}
+.title {
+  padding: 0;
+  margin: 11px 0 21px 0;
+  font-size: 22px;
+  direction: rtl;
+  font-weight: 500;
+}
+.All-box {
+  width: 100%;
+  margin-left: 0px;
+}
+.Part-col {
+  margin: 0px 0px 0px 0px;
+  position: relative;
+  left: 9px;
+}
+.col-content {
+  width: calc(100% / 5);
+  float: left;
+}
+.img-content img {
+  width: 255px;
 }
