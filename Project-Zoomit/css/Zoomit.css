@@ -173,11 +173,10 @@ li {
   border: 1px solid black;
 }
 .fa-rectangle-ad {
-  position: absolute;
+  position: relative;
   color: #d0c6c6;
   font-size: 20px;
-  top: 25px;
-  margin-left: 12px;
+  top: 24px;
   border-radius: 15px;
 }
 
@@ -390,7 +389,11 @@ li {
   border-bottom: 1px solid black;
   
 }
-
+.Sugg-CEO {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
 .All-box {
   width: 100%;
   margin-left: 0px;
@@ -424,4 +427,33 @@ li {
 .t-b:hover {
   color: red !important;
 }
-
+.main {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+.left-aside-W-300px {
+width: 300px;
+height: auto;
+margin-left: 0;
+}
+.f-adv {
+  margin-top: 0;
+  margin-left: 0;
+}
+.s-adv {
+  margin-top: 0;
+  position: relative;
+  bottom: 20px;
+  margin-left: 0;
+}
+.t-adv {
+  margin-top: 0;
+  position: relative;
+  bottom: 40px;
+  margin-left: 0;
+}
+.t-adv img {
+  border: 1px solid black;
+}
