@@ -369,3 +369,14 @@ li {
   color: #000000;
   top: 50px;
 }
+
+.last-adv-tpart {
+  text-align: center;
+  margin: 10px 0 0 0;
+  position: absolute;
+  width: 100%;
+  left: 5px;
+}
+.adv-2-bottom img {
+  width: 99.5%;
+}
