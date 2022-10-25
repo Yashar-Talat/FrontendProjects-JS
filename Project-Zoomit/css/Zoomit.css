@@ -387,7 +387,10 @@ li {
   font-size: 22px;
   direction: rtl;
   font-weight: 500;
+  border-bottom: 1px solid black;
+  
 }
+
 .All-box {
   width: 100%;
   margin-left: 0px;
@@ -395,12 +398,30 @@ li {
 .Part-col {
   margin: 0px 0px 0px 0px;
   position: relative;
-  left: 9px;
+  left: 7.5px;
+  width: 100%;
 }
 .col-content {
   width: calc(100% / 5);
   float: left;
+
 }
 .img-content img {
-  width: 255px;
+  width: 254px;
 }
+.text-box {
+  direction: rtl;
+  width: 100%;
+  position: relative;
+  right: 10px;
+  font-weight: 600;
+  font-size: 18px;
+}
+.t-b {
+  transition: all 0.2s ease-in-out;
+  color: #333 !important;
+}
+.t-b:hover {
+  color: red !important;
+}
+
