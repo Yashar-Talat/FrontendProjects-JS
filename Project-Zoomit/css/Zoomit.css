@@ -380,7 +380,7 @@ li {
 .adv-2-bottom img {
   width: 99.5%;
 }
-.title {
+.title-CEO {
   padding: 0;
   margin: 11px 0 21px 0;
   font-size: 22px;
@@ -460,14 +460,14 @@ li {
   width: 100%;
   height: auto;
 }
-.title-left-aside {
+.title {
   width: 100%;
   direction: rtl;
   background-color: #f5f5f5 !important;
   padding: 13px 0px 20px 0;
   border-bottom: 1px solid #f5f5f5;
 }
-.title-left-aside h3 {
+.title h3 {
   font-size: 20px;
   position: relative;
   right: 4px;
@@ -612,3 +612,23 @@ li {
 .news-box-left a:hover {
   color: red !important;
 }
+.aside-bottom-2-adv {
+  width: 100%;
+  margin-top: 0;
+}
+.f-b-adv {
+ width: 100%;
+ margin: 0;
+}
+.f-b-adv img {
+  border: 1px groove black;
+}
+.s-b-adv {
+  width: 100%;
+  margin: 0;
+  position: relative;
+  bottom: 7px;
+ }
+ .s-b-adv img {
+   border: 1px groove black;
+ }
