@@ -2,18 +2,18 @@
 
 @font-face {
   font-family: "IRANsans-Bold";
-  src: url(../font/IRAN\ Sans\ Bold.ttf);
+  src: url(../font/IRANSansBold.ttf);
 }
 @font-face {
   font-family: "IRANsans-Regular";
-  src: url(../font/IRAN\ Sans\ Regular.ttf);
+  src: url(../font/IRANSansRegular.ttf);
 }
 
 * {
   margin: 0 auto;
 }
 body {
-  font-family: IRANsans-Regular;
+  font-family: IRANsans-Regular, serif;
   font-size: 14px;
   font-weight: 400;
   background-color: #f0f0f0;
@@ -72,7 +72,7 @@ li {
 }
 .top-nav-all {
   background-color: #242424;
-  box-shadow: 0 3px 10px 0 rgba(0, 0, 0 / 16%);
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0 ,0);
   overflow: hidden;
   padding: 12px 15px 9px 0;
   top: 0;
@@ -814,4 +814,49 @@ li {
 .aside-right {
   width: 250px;
   height: auto;
+}
+.f-r-adv img{
+  border: 1px solid black;
+}
+.s-r-adv img {
+  border: 1px solid black;
+position: relative;
+  bottom: 20px;
+}
+.Most-view-part {
+  margin-top: 0;
+  position: relative;
+  top: 30px;
+}
+.Most-view-part h4 {
+  direction: rtl;
+  font-size: 18px;
+  padding: 10px 5px 10px 0;
+  background-color: #f5f5f5;
+}
+.mb-10px {
+  margin-bottom: 10px;
+}
+.p-b-text {
+  background-color: #ffffff;
+  position: relative;
+  bottom: 8px;
+  direction: rtl;
+  padding: 5px 10px;
+}
+.p-b-text a {
+  color: black !important;
+  font-size: 18px;
+  font-weight: 600;
+  transition: all 0.4s ease-in-out;
+}
+.p-b-text a:hover {
+  color: red !important;
+}
+.footer-adv {
+  position: relative;
+  top: 50px;
+}
+.footer-adv img {
+  width: 250px;
 }
