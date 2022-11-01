@@ -1005,8 +1005,9 @@ li {
     font-size: 17px;
     font-weight: 400;
     color: #999;
-    margin:5px 15px 0 0;
+    margin: 5px 15px 0 0;
 }
+
 .page-counter {
     width: 350px;
     height: 30px;
@@ -1014,23 +1015,28 @@ li {
     right: 100px !important;
     bottom: 3px !important;
 }
+
 .page-counter ul {
     position: relative;
     left: 100px;
 }
+
 .page-counter ul li {
     display: inline-block;
     padding: 10px 30px 10px 0;
     transition: color 0.2s ease;
 }
+
 .page-counter li a:hover {
     color: red !important;
 }
-.page-counter *>a {
+
+.page-counter * > a {
     color: black;
     font-size: 16px;
     font-weight: 600;
 }
+
 .page-counter i {
     color: #999999;
     font-size: 14px !important;
