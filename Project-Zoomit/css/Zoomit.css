@@ -1066,8 +1066,8 @@ li {
   left: 21px;
 }
 .w-1-3 img {
-    position: relative;
-    left: 14px;
+  position: relative;
+  left: 14px;
 }
 .w-2-3 {
   width: calc(100% / 3);
@@ -1075,8 +1075,8 @@ li {
   left: 3px;
 }
 .w-2-3 img {
-    position: relative;
-    left: 14px;
+  position: relative;
+  left: 14px;
 }
 .w-3-3 {
   width: calc(100% / 3);
@@ -1084,8 +1084,8 @@ li {
   left: -15px;
 }
 .w-3-3 img {
-    position: relative;
-    left: 14px;
+  position: relative;
+  left: 14px;
 }
 .row-2 {
   margin-top: 38px;
@@ -1175,21 +1175,165 @@ li {
   border-top: 1px solid #fff;
 }
 .view-all a {
-    position: relative;
-    top: 7px;
-    font-size: 18px;
-    color: #fff;
-    font-weight: 400;
+  position: relative;
+  top: 7px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 400;
 }
 .view-all span {
-    position: relative;
-    bottom: 2px;
+  position: relative;
+  bottom: 2px;
 }
 #icon-angle {
-    position: relative;
-    right: 155px;
-    border: 2px solid #ffffff;
-    border-radius: 100%;
-    padding: 4px 9px;
-    
+  position: relative;
+  right: 155px;
+  border: 2px solid #ffffff;
+  border-radius: 100%;
+  padding: 4px 9px;
+}
+.check-part {
+  width: 100%;
+}
+
+.h-565px {
+  height: 565px;
+}
+.row-1-check {
+  margin-left: 35px;
+}
+.title-check {
+  direction: rtl;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.title-check h3 a {
+  font-size: 40px;
+  color: #000000 !important;
+  font-weight: 400;
+}
+.w-50-100 {
+  width: 50%;
+}
+.h-65-100 {
+  height: 45%;
+}
+.w-300px {
+  width: 300px;
+}
+.h-250px {
+  height: 250px;
+}
+.col-1 {
+  background: url(../Project-image-Zoomit/redmi-note-11-pro-plus-wallpaper-600x450.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.col-1 a {
+  width: 300px;
+  height: 250px;
+  position: absolute;
+  direction: rtl;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 10;
+}
+.col-1 h4 {
+  position: absolute;
+  bottom: 5px;
+  margin-right: 15px;
+  color: #ffffff !important;
+  font-size: 26px;
+  font-weight: 400;
+  padding: 5px;
+}
+.col-2 {
+  background: url(../Project-image-Zoomit/msi-katana-gf6612ue-on-the-desk-with-blue-wallpaper-hero-600x450.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 20px;
+}
+.col-2 a {
+  width: 300px;
+  height: 250px;
+  position: absolute;
+  direction: rtl;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 10;
+}
+.col-2 h4 {
+  position: absolute;
+  bottom: 5px;
+  margin-right: 15px;
+  color: #ffffff !important;
+  font-size: 26px;
+  font-weight: 400;
+  padding: 5px;
+}
+
+.right-show-content {
+  width: 47%;
+  height: 80%;
+}
+.big-box-right {
+  width: 100%;
+  height: 100%;
+  background: url(../Project-image-Zoomit/one-ui-5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.big-box-right a {
+  width: 47%;
+  height: 452px;
+  position: absolute;
+  direction: rtl;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+.inline-block {
+  display: inline-block;
+}
+
+.big-box-right h3 {
+  position: absolute;
+  bottom: 5px;
+  margin-right: 15px;
+  color: #ffffff !important;
+  font-size: 40px;
+  font-weight: 400;
+  padding: 10px;
+}
+.row-2-check {
+  margin-left: 35px;
+}
+.h-35-100 {
+  height: 35%;
+}
+.w-195px {
+  width: 195px;
+}
+.r-2-1 {
+  margin-right: 15px;
+  margin-top: 13px;
+}
+.r-2-2 {
+  margin-right: 15px;
+}
+.text-under-box {
+  direction: rtl;
+  width: 100%;
+  height: auto;
+}
+.text-under-box h6 {
+  padding: 2px 3px 0 20px;
+}
+.text-under-box a {
+  color: #000000 !important;
+  font-size: 15px;
+  transition: color 0.2s ease-in;
+}
+.text-under-box a:hover {
+  color: #e51a2d !important;
 }
