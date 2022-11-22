@@ -1337,3 +1337,14 @@ li {
 .text-under-box a:hover {
   color: #e51a2d !important;
 }
+
+footer {
+  height: 500px;
+  background-color: #2409ec;
+  margin-top: 115px;
+}
+.footer {
+  width: 1320px;
+  height: 500px;
+  background-color: #e51a2d;
+}
